@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.mycompany.laboratorioteoria</groupId>
+    <artifactId>LaboratorioTeoria</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <maven.compiler.source>17</maven.compiler.source>
+        <maven.compiler.target>17</maven.compiler.target>
+        <exec.mainClass>com.mycompany.laboratorioteoria.LaboratorioTeoria</exec.mainClass>
+    </properties>
+        	<repositories>
+		<repository>
+			<id>AsposeJavaAPI</id>
+			<name>Aspose Java API</name>
+			<url>https://releases.aspose.com/java/repo/</url>
+		</repository>
+	</repositories>
+		<dependencies>
+		<dependency>
+			<groupId>com.aspose</groupId>
+			<artifactId>aspose-words</artifactId>
+			<version>22.11</version>
+			<classifier>jdk17</classifier>
+		</dependency>
+		<dependency>
+			<groupId>com.aspose</groupId>
+			<artifactId>aspose-words</artifactId>
+			<version>22.11</version>
+			<classifier>javadoc</classifier>
+		</dependency>
+		  <dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi</artifactId>
+		    <version>4.1.2</version>
+		    <type>jar</type>
+		  </dependency>
+		  <dependency>
+		    <groupId>org.apache.poi</groupId>
+		    <artifactId>poi-ooxml</artifactId>
+		    <version>4.1.2</version>
+		    <type>jar</type>
+		  </dependency>
+                  <dependency>
+                 <groupId>org.apache.poi</groupId>
+                <artifactId>poi-scratchpad</artifactId>
+                <version>3.9</version>
+                  </dependency>
+		  <dependency>
+		    <groupId>org.netbeans.external</groupId>
+		    <artifactId>AbsoluteLayout</artifactId>
+		    <version>RELEASE160</version>
+		  </dependency>
+		</dependencies>
+                    <name>ProyectoTIyC_Morales_Sanchez</name>
+
+</project>
